@@ -18,10 +18,10 @@ Full list of required packages are listed on `env.yaml`.
 * tensorflow 1.3.0
 * pytorch 0.2.0
 * numpy
-* PIL
 * click
+* Pillow
 * h5py
 
 ## Submodule
 
-* tensorflow/models (91fbd5c)
+* [tensorflow/models @ 91fbd5c](https://github.com/tensorflow/models/tree/91fbd5c5717b95a1b3345e04f10600d74be531d3)
