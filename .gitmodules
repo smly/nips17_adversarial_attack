@@ -1,0 +1,3 @@
+[submodule "defense/import_from_tf_baseline/models"]
+	path = defense/import_from_tf_baseline/models
+	url = https://github.com/tensorflow/models
