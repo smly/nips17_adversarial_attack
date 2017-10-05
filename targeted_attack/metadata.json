@@ -1,0 +1,6 @@
+{
+  "type": "targeted_attack",
+  "container": "smly/nips17:pytorch",
+  "container_gpu": "smly/nips17:pytorch",
+  "entry_point": "run_attack.sh"
+}
