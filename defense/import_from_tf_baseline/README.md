@@ -5,9 +5,29 @@ This work is inspired by [tensorflow-model-zoo.torch](https://github.com/Cadene/
 ## Usage
 
 ```
-$ python ens_adv_inception_resnet_v2.py \
-    --checkpoint /data/pretrained/ens_adv_inception_resnet_v2.ckpt \
-    --outdir /tmp/ens_adv_inception_resnet_v2
+$ PYTHONPATH=${PYTHONPATH}:./models/slim \
+    python ens_adv_inception_resnet_v2.py \
+    --checkpoint  /data/pretrained/ens_adv_inception_resnet_v2.ckpt \
+    --outdir      /tmp/ens_adv_inception_resnet_v2 \
+    --export-path ../working_files/ensadv_inceptionresnetv2_state.pth
+
+$ PYTHONPATH=${PYTHONPATH}:./models/slim:../models \
+    python ens_adv_inception_v3.py \
+    --checkpoint  /data/pretrained/ens3_adv_inception_v3.ckpt \
+    --outdir      /tmp/ens3_adv_inception_v3 \
+    --export-path ../working_files/ens3incepv3_fullconv_state.pth
+
+$ PYTHONPATH=${PYTHONPATH}:./models/slim:../models \
+    python ens_adv_inception_v3.py \
+    --checkpoint  /data/pretrained/ens4_adv_inception_v3.ckpt \
+    --outdir      /tmp/ens4_adv_inception_v3 \
+    --export-path ../working_files/ens4incepv3_fullconv_state.pth
+
+$ PYTHONPATH=${PYTHONPATH}:./models/slim:../models \
+    python ens_adv_inception_v3.py \
+    --checkpoint  /data/pretrained/adv_inception_v3.ckpt \
+    --outdir      /tmp/adv_inception_v3 \
+    --export-path ../working_files/adv_inception_v3_fullconv_state.pth
 ```
 
 ## Requirements
