@@ -1,6 +1,6 @@
 This is my final submission for NIPS'17 Non-targeted Adversarial Attack Challenge.
 
-**Appraoch**: Round-robin iterative FGSM. Following models are used: DenseNet, FBResNet152, IncepV3, IncepResV2, IncepV4 and ResNext101.
+**Appraoch**: Round-robin Basic Iterative Method, which is a variant of [Basic Iterative Method](https://arxiv.org/abs/1607.02533). Following models are used in the attack: DenseNet, FBResNet152, IncepV3, IncepResV2, IncepV4 and ResNext101.
 
 ## Experimental results
 
