@@ -12,5 +12,4 @@ This product includes software developed by the Soumith Chintala, Ross Wightman 
 
 * https://github.com/pytorch/vision/ (BSD-3)
 * https://github.com/rwightman/pytorch-nips2017-attack-example (BSD-3)
-* https://github.com/rwightman/pytorch-dpn-pretrained (BSD-3)
 * https://github.com/Cadene/pretrained-models.pytorch (BSD-3)
