@@ -13,11 +13,11 @@ import torch.legacy.nn as legacy_nn
 import tables as tbl
 import xgboost as xgb
 
-from models_drn import drn_c_58, drn_d_105
-from models_dpn import dpn131, dpn107
-from models_incepv3 import inception_v3 as inception_v3_fullconv
-from models_incepresv2 import inceptionresnetv2
-from models_inceptionv4 import inceptionv4
+from models.models_drn import drn_c_58, drn_d_105
+from models.models_dpn import dpn131, dpn107
+from models.models_incepv3 import inception_v3 as inception_v3_fullconv
+from models.models_incepresv2 import inceptionresnetv2
+from models.models_inceptionv4 import inceptionv4
 import xgb_feat
 from dataset import (
     Dataset, DataLoader,

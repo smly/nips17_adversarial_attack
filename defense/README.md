@@ -1,6 +1,6 @@
 This is my final submission for NIPS'17 Defense Against Adversarial Attack Challenge.
 
-**Appraoch**: Weighted majority voting. Weights are computered by XGBoost model, which is trained to predict the accuracy (hopefully).
+**Appraoch**: Weighted majority voting. The weights are the prediction result of XGBoost model, which is trained to predict the accuracy.
 
 ## Acknowledgements
 
