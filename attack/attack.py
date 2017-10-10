@@ -33,7 +33,6 @@ from dataset import (
 
 
 FN_MODEL1 = "./densenet161-17b70270.pth"
-# FN_MODEL2 = "./resnet34-333f7ec4.pth"
 FN_MODEL2 = "./resnet152-c11d722e.pth"
 FN_MODEL3 = "./inception_v3_google-1a9a5a14.pth"
 FN_MODEL4 = "./inceptionresnetv2-d579a627.pth"
@@ -252,10 +251,6 @@ def main():
     m1.eval()
 
     # NN2
-    # m2 = resnet34(pretrained=False)
-    # m2 = m2.cuda()
-    # m2.load_state_dict(torch.load(FN_MODEL2))
-    # m2.eval()
     m2 = fbresnet152(pretrained='imagenet')
     m2 = m2.cuda()
     m2.load_state_dict(torch.load(FN_MODEL2))
